@@ -1,0 +1,58 @@
+{
+  "name": "@jenniesh/eslint-config-vue-typescript",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier Config for Vue2 with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "author": "Jennie Shao (https://github.com/JennieSH)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JennieSH/eslint-config-vue-typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/JennieSH/eslint-config-vue-typescript/issues"
+  },
+  "keywords": [
+    "style guide",
+    "lint",
+    "vue",
+    "vue2",
+    "eslint",
+    "typescript"
+  ],
+  "dependencies": {
+    "@jenniesh/eslint-config-vue": "^1.1.0",
+    "@vue/eslint-config-typescript": "^7.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "typescript": "~4.1.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "typescript": "~4.1.5"
+  }
+}
